@@ -568,3 +568,98 @@ input[type="email"]:focus{
     margin-left: auto;
     padding: 2%
 }
+
+@media screen and (max-width: 950px){
+    .menu{
+        flex-wrap: wrap;
+    }
+
+    .menu li{
+        width: 50%;
+    }   
+
+    .responsiveIframe{
+        width: 80%;
+        height: 80%;
+    }
+
+    .foundationsContent{
+        justify-content: center;
+    }
+
+    .servicesContent{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .servicesContent img{
+        display: none;
+    }
+
+    .service{
+        max-width: 30vw;
+        min-width: 25rem;
+        height: 35vh;
+        margin: 1%
+    }
+    
+    .serviceContent{
+        width: 100%;
+    }
+    
+    .serviceDetails{
+        padding: 2%;
+        margin: 2%;
+        color: rgb(81, 80, 80);
+    }
+
+    .trendingContent{
+        justify-content: center;
+    }
+
+    .programsContent{
+        flex-wrap: wrap;
+    }
+
+    .program{
+        width: 35%;
+    }
+
+    .program:first-child{
+        width: 60%;
+    }
+
+    .communityContainer{
+        flex-direction: column;
+    }
+
+    .words{
+        width: 45vw;
+        height: 15vh;
+    }
+
+    .siteSummary{
+        flex-direction: column;
+    }
+
+    .listOfPages{
+        flex-wrap: wrap;
+    }
+
+    .contact{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .terms{
+        display: none;
+    }
+
+    .copyright{
+        flex-direction: column;
+    }
+
+    .applicationFooter{
+        display: none;
+    }
+}
