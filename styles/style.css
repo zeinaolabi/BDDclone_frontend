@@ -350,3 +350,221 @@ body{
     font-size: 12px;
     color: rgb(81, 80, 80);
 }
+
+.programsContainer{
+    position: relative;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.programsBackground{
+    height: 100%;
+    background-image: url("https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/WORKPLACEV9CMS/3-rifkq7g0kj79ubfl0zua.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.programsContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.program{
+    width: 20%;
+    text-align: center;
+}
+
+.program:first-child{
+    width: 40%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.programDesc{
+    color: white;
+    padding: 5% 0;
+    font-size: 15px;
+}
+
+.program img{
+    height: 85px;
+    width: 95px;
+    padding: 2%;
+}
+
+.communityContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 15%;
+    text-align: left;
+    align-items: center;
+}
+
+.words{
+    width: 30%;
+    height: 18vh;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 6px;
+    text-align: left;
+    padding: 2%;
+    margin: 1%
+}
+
+.words img{
+    width: 30%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.wordsDesc{
+    padding: 5% 0;
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    padding: 2% 15%;
+}
+
+.siteSummary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitemap{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%
+}
+
+.headerFooter{
+    color: lightgray;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.listOfPages{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+
+.pages > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.pagesTitle{
+    color: gray;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.page{
+    padding: 8% 0;
+    color: white;
+}
+
+.contact{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1%;
+    border-bottom: 1px solid white;
+}
+
+input[type="email"]{
+    background-color: rgb(26, 26, 26);
+    width: 70%;
+    border: none;
+    color: white;
+}
+
+input[type="email"]:focus{
+    outline: none !important;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.connect{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.connect > p{
+    padding-left: 2%;
+}
+
+.terms{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+
+.terms > p{
+    padding: 1.5%
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13x;
+}
+
+.copyright a{
+    color:rgb(23, 119, 193);
+    text-decoration: none;
+}
+
+.media li{
+    display: inline-block;
+}
+
+.clickable:hover{
+    border-bottom: 1px solid rgb(23, 119, 193);
+}
+
+.applicationFooter{
+    margin-left: auto;
+    padding: 2%
+}
