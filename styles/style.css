@@ -136,3 +136,90 @@ body{
     margin-top: 5%;
 }
 
+.exploreContainer{
+    position: relative;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploreBackground{
+    height: 100%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/128/637/127/interior-office-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(60%);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.exploreVideo{
+    position: relative;
+}
+  
+.videoContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.servicesContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.servicesContent img{
+    width: 32%;
+    height: 65%;
+}
+
+.service{
+    height: 55vh;
+    width: 15vw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: left;
+    padding: 2.2%;
+    font-family: Palatino, URW Palladio L, serif; 
+}
+
+.service:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.serviceContent{
+    width: 100%;
+    padding-bottom: 30%;
+}
+
+.serviceDetails{
+    padding: 4%;
+    margin: 5%;
+    color: rgb(81, 80, 80);
+}
+
+.paddingTop{
+    padding-top: 4%
+}
+
+
