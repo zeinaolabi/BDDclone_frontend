@@ -92,3 +92,47 @@ body{
     font-family: Palatino, URW Palladio L, serif;
     font-size: 20px;
 }
+
+.foundationsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%
+}
+
+.foundationsContent{
+    margin: 1% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.foundations{
+    height: 39vh;
+    width: 18vw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding: 30px;
+    font-family: Palatino, URW Palladio L, serif;
+}
+
+.foundations:hover{
+    background-color: rgb(221, 236, 248);
+}
+
+.foundationsImage{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.foundationsPara{
+    color: rgb(106, 105, 105);
+    margin-top: 5%;
+}
+
